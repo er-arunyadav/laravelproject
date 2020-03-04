@@ -96,6 +96,17 @@
           </ul>
  </li>
 
+  <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Assign<span class="caret">
+              
+          </span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ route('assignpermission.create') }}">Assign Permission</a></li>
+            <li><a href="{{ route('assignrole.create') }}">Assign Role</a></li>
+            
+          </ul>
+ </li>
+
 
             @guest
              <li><a href="{{ route('login') }}">
