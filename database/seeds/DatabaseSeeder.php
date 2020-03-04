@@ -17,5 +17,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'applocumadmin@yopmail.com',
             'password' => Hash::make('Password@123'),
         ]);
+
+
+        $this->call(CustomerTableSeeder::class);
     }
 }
